@@ -121,7 +121,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511082371842938}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: "press\xC5"
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511082393127940
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,7 +255,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511082393127943}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: pressN
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511082428606335
 GameObject:
   m_ObjectHideFlags: 0
@@ -365,7 +389,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511082428606338}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: pressH
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511082534110347
 GameObject:
   m_ObjectHideFlags: 0
@@ -487,7 +523,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511082534110350}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: "press\xD6"
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511082537172142
 GameObject:
   m_ObjectHideFlags: 0
@@ -823,7 +871,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511082657310508}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: pressU
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511082666118478
 GameObject:
   m_ObjectHideFlags: 0
@@ -1399,7 +1459,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511082909925022}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: pressM
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511082917864652
 GameObject:
   m_ObjectHideFlags: 0
@@ -1521,7 +1593,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511082917864655}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: pressK
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511082939465939
 GameObject:
   m_ObjectHideFlags: 0
@@ -2043,7 +2127,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511083136937417}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: pressA
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511083196082173
 GameObject:
   m_ObjectHideFlags: 0
@@ -2245,7 +2341,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511083280703003}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: pressD
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511083304587586
 GameObject:
   m_ObjectHideFlags: 0
@@ -2447,7 +2555,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511083345788394}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: pressG
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511083365634213
 GameObject:
   m_ObjectHideFlags: 0
@@ -3053,7 +3173,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511083621101107}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: pressB
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511083657466831
 GameObject:
   m_ObjectHideFlags: 0
@@ -3175,7 +3307,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511083657466834}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: pressR
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511083665621294
 GameObject:
   m_ObjectHideFlags: 0
@@ -3297,7 +3441,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511083665621297}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: pressS
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511083694488160
 GameObject:
   m_ObjectHideFlags: 0
@@ -3499,7 +3655,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511083714083117}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: pressV
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511083732382909
 GameObject:
   m_ObjectHideFlags: 0
@@ -3621,7 +3789,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511083732382912}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: pressC
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511083751384192
 GameObject:
   m_ObjectHideFlags: 0
@@ -3983,7 +4163,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511083772875086}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: pressI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511083794542115
 GameObject:
   m_ObjectHideFlags: 0
@@ -4185,7 +4377,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511083802865489}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: pressZ
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511083857196073
 GameObject:
   m_ObjectHideFlags: 0
@@ -4307,7 +4511,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511083857196076}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: pressY
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511083861052717
 GameObject:
   m_ObjectHideFlags: 0
@@ -4429,7 +4645,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511083861052720}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: pressF
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511083909898014
 GameObject:
   m_ObjectHideFlags: 0
@@ -4631,7 +4859,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511083937999904}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: pressW
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511083957361496
 GameObject:
   m_ObjectHideFlags: 0
@@ -4833,7 +5073,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511084056486406}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: pressO
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511084081263229
 GameObject:
   m_ObjectHideFlags: 0
@@ -4955,7 +5207,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511084081263232}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: pressT
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511084085955976
 GameObject:
   m_ObjectHideFlags: 0
@@ -5237,7 +5501,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511084091277688}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: "press\xC4"
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511084113495003
 GameObject:
   m_ObjectHideFlags: 0
@@ -5601,7 +5877,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511084224920945}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: pressP
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511084241445881
 GameObject:
   m_ObjectHideFlags: 0
@@ -5723,7 +6011,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511084241445884}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: pressX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511084305251466
 GameObject:
   m_ObjectHideFlags: 0
@@ -5927,7 +6227,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511084380156527}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: pressL
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511084380723440
 GameObject:
   m_ObjectHideFlags: 0
@@ -6129,7 +6441,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511084388896452}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: pressJ
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511084395759418
 GameObject:
   m_ObjectHideFlags: 0
@@ -6251,7 +6575,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511084395759421}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: PressErase
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2707511084479492734
 GameObject:
   m_ObjectHideFlags: 0
@@ -6373,4 +6709,16 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2707511084479492737}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2707511083756581697}
+        m_TargetAssemblyTypeName: Keyboard, Assembly-CSharp
+        m_MethodName: pressE
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
