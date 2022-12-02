@@ -1553,6 +1553,9 @@ MonoBehaviour:
   currentBox: {fileID: 0}
   correctWord: 
   currentGuess: 
+  numberOfGuesses: 0
+  charLenght: 0
+  testBox: {fileID: 472450515}
 --- !u!4 &627443178
 Transform:
   m_ObjectHideFlags: 0

@@ -12,14 +12,17 @@ public class Game : MonoBehaviour
 
     public string correctWord;
     public string currentGuess;
-    private int numberOfGuesses;
-    private int charLenght;
+    public int numberOfGuesses;
+    public int charLenght;
     private WordList _wordList;
+    [SerializeField] private GameObject testBox;
+    private ChangeBoxColor _changeBoxColor;
     
     
     void Start()
     {
         _wordList = GameObject.Find("GameManager").GetComponent<WordList>();
+        _changeBoxColor = testBox.GetComponent<ChangeBoxColor>();
         UpdateGuess(numberOfGuesses);
         charLenght = 0;
         CreateCorrectWord();
@@ -37,6 +40,7 @@ public class Game : MonoBehaviour
         {
           if (currentGuess == _wordList.Words[i])
           {
+              _changeBoxColor.CheckWord();
               if (currentGuess == correctWord)
               {
                   Debug.Log("You Won!!!");
