@@ -41,12 +41,19 @@ public class ChangeBoxColor : MonoBehaviour
             ChangeToYellow();
             
         }
+        else
+        {
+            ChangeToGray();
+        }
 
         for (int i = 0; i < _game.currentGuess.Length; i++)
         {
-            if ()
+            if (gameObject.name == "3")
             {
-            
+                if (_game.currentGuess.IndexOf(gameObject.GetComponentInChildren<Text>().text) == 3)
+                {
+                    ChangeToGreen();
+                }
             }
         }
         
@@ -60,7 +67,7 @@ public class ChangeBoxColor : MonoBehaviour
     {
         panel.color = Color.green;
     }
-    public void ChangeToGray(GameObject currentBox)
+    public void ChangeToGray()
     {
         panel.color = Color.gray;
     }
