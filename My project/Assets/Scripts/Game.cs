@@ -17,11 +17,13 @@ public class Game : MonoBehaviour
     private WordList _wordList;
     [SerializeField] private GameObject testBox;
     private ChangeBoxColor _changeBoxColor;
+    private Colormanager _colormanager;
     
     
     void Start()
     {
         _wordList = GameObject.Find("GameManager").GetComponent<WordList>();
+        _colormanager = GameObject.Find("GameManager").GetComponent<Colormanager>();
         _changeBoxColor = testBox.GetComponent<ChangeBoxColor>();
         UpdateGuess(numberOfGuesses);
         charLenght = 0;
@@ -40,7 +42,8 @@ public class Game : MonoBehaviour
         {
           if (currentGuess == _wordList.Words[i])
           {
-              _changeBoxColor.CheckWord();
+              //_changeBoxColor.CheckWord();
+              _colormanager.ChangeColor(numberOfGuesses);
               if (currentGuess == correctWord)
               {
                   Debug.Log("You Won!!!");
@@ -51,10 +54,10 @@ public class Game : MonoBehaviour
                   charLenght = 0;
                   currentGuess = "";
               }
-          }  
+          }
+
         }
-        
-        
+        Debug.Log("apa");
     }
 
     GameObject UpdateGuess(int guess)
@@ -74,6 +77,10 @@ public class Game : MonoBehaviour
         if(guess == 3)
         {
             return GameObject.Find("Word4");
+        }
+        if(guess == 4)
+        {
+            return GameObject.Find("Word5");
         }
         else
         {
@@ -104,6 +111,7 @@ public class Game : MonoBehaviour
         {
             UpdateGuess(numberOfGuesses).transform.GetChild(charLenght-1).gameObject.GetComponentInChildren<Text>().text = "";
             charLenght--;
+            currentGuess = currentGuess.Remove(currentGuess.Length - 1);
         }
 
     }
