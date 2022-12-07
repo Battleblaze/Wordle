@@ -18,6 +18,8 @@ public class Game : MonoBehaviour
     [SerializeField] private GameObject testBox;
     private ChangeBoxColor _changeBoxColor;
     private Colormanager _colormanager;
+    [SerializeField] private GameObject Victory;
+    [SerializeField] private GameObject GameOver;
     
     
     void Start()
@@ -47,12 +49,19 @@ public class Game : MonoBehaviour
               if (currentGuess == correctWord)
               {
                   Debug.Log("You Won!!!");
+                  //Victory = GameObject.Find("Victory");
+                  Victory.SetActive(true);
               }
               else
               {
                   numberOfGuesses++;
                   charLenght = 0;
                   currentGuess = "";
+                  if (numberOfGuesses > 4)
+                  {
+                      GameOver.GetComponent<Text>().text = "Game Over " + "Correct word was: " + correctWord;
+                      GameOver.SetActive(true);
+                  }
               }
           }
 
