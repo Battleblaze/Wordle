@@ -57,8 +57,7 @@ public class Colormanager : MonoBehaviour
             _changeBoxColor.CheckWord();
             _changeBoxColor = word1Box5.GetComponent<ChangeBoxColor>();
             _changeBoxColor.CheckWord();
-            _changeBoxColor = keyboardA.GetComponent<ChangeBoxColor>();
-            _changeBoxColor.CheckWord();
+            
         }
         if (i == 1)
         {
