@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class WordList : MonoBehaviour
 {
-    public string[] Words = new string[] {"AFTON", "AGENT", "AFFÄR", "AKTIE", "ALARM", "ALBUM"};
+    public string[] Words = new string[] {"AFTON", "AGENT", "AMPEL", "BACON", "ALARM", "ALBUM"};
 
     
 }

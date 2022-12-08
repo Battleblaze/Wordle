@@ -495,11 +495,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 107969255}
   m_CullTransparentMesh: 1
---- !u!1 &119746993 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2707511083136937414, guid: 6dedebb7b507e91418628ab1c688dd75, type: 3}
-  m_PrefabInstance: {fileID: 2707511082957281024}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &216981246
 GameObject:
   m_ObjectHideFlags: 0
@@ -1754,7 +1749,7 @@ GameObject:
   m_Component:
   - component: {fileID: 627443178}
   - component: {fileID: 627443176}
-  - component: {fileID: 627443179}
+  - component: {fileID: 627443182}
   - component: {fileID: 627443180}
   - component: {fileID: 627443181}
   m_Layer: 0
@@ -1799,25 +1794,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &627443179
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 627443175}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 513af26ac7a739e4bbd491b4c942b2b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Words:
-  - AFTON
-  - AGENT
-  - "AFF\xC4R"
-  - AKTIE
-  - ALARM
-  - ALBUM
 --- !u!114 &627443180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1855,7 +1831,6 @@ MonoBehaviour:
   word5Box3: {fileID: 2088155234}
   word5Box4: {fileID: 521154343}
   word5Box5: {fileID: 646488502}
-  keyboardA: {fileID: 119746993}
 --- !u!114 &627443181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1868,6 +1843,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 292c209a0f9cffd48b1e6eb7b4fdcc5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &627443182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627443175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 513af26ac7a739e4bbd491b4c942b2b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Words:
+  - AFTON
+  - AGENT
+  - AMPEL
+  - BACON
+  - ALARM
+  - ALBUM
 --- !u!1 &630865331
 GameObject:
   m_ObjectHideFlags: 0
