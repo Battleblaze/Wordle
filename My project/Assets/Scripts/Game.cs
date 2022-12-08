@@ -66,7 +66,6 @@ public class Game : MonoBehaviour
           }
 
         }
-        Debug.Log("apa");
     }
 
     GameObject UpdateGuess(int guess)

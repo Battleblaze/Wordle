@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,6 +11,7 @@ public class ChangeBoxColor : MonoBehaviour
     private Colormanager _colormanager;
     Image panel;
     private char a;
+    public bool isGreen = false;
     
     // Start is called before the first frame update
     void Start()
@@ -22,49 +24,55 @@ public class ChangeBoxColor : MonoBehaviour
 
     public void CheckWord()
     {
-        
+
             if (_game.correctWord.Contains(gameObject.GetComponentInChildren<Text>().text))
             {
-                ChangeToYellow();
+               ChangeToYellow();
             }
-            else
-            {
-                ChangeToGray();
-            }
+                       
+           else
+           {
+               ChangeToGray();
+           } 
+        
+            
 
             for (int j = 0; j < _game.correctWord.Length; j++)
             {
                 if (gameObject.name == "1")
                 {
-                    if (_game.correctWord.IndexOf(gameObject.GetComponentInChildren<Text>().text) == 0)
+                    if (char.ToString(_game.correctWord[0]) == gameObject.GetComponentInChildren<Text>().text)
                     {
                         ChangeToGreen();
                     }
                 }
+                
                 if (gameObject.name == "2")
                 {
-                    if (_game.correctWord.IndexOf(gameObject.GetComponentInChildren<Text>().text) == 1)
+                    if (char.ToString(_game.correctWord[1]) == gameObject.GetComponentInChildren<Text>().text)
                     {
                         ChangeToGreen();
                     }
                 }
                 if (gameObject.name == "3")
                 {
-                    if (_game.correctWord.IndexOf(gameObject.GetComponentInChildren<Text>().text) == 2)
+                    if (char.ToString(_game.correctWord[2]) == gameObject.GetComponentInChildren<Text>().text)
                     {
                         ChangeToGreen();
                     }
                 }
                 if (gameObject.name == "4")
                 {
-                    if (_game.correctWord.IndexOf(gameObject.GetComponentInChildren<Text>().text) == 3)
+                    
+                    if (char.ToString(_game.correctWord[3]) == gameObject.GetComponentInChildren<Text>().text)
                     {
                         ChangeToGreen();
                     }
                 }
                 if (gameObject.name == "5")
                 {
-                    if (_game.correctWord.IndexOf(gameObject.GetComponentInChildren<Text>().text) == 4)
+                    
+                    if (char.ToString(_game.correctWord[4]) == gameObject.GetComponentInChildren<Text>().text)
                     {
                         ChangeToGreen();
                     }
@@ -77,14 +85,29 @@ public class ChangeBoxColor : MonoBehaviour
     public void ChangeToYellow()
     {
         panel.color = Color.yellow;
+        if (isGreen == false)
+        {
+         GameObject key = GameObject.Find(gameObject.GetComponentInChildren<Text>().text);
+                 key.GetComponent<Image>().color= Color.yellow;   
+        }
+          
+        
+        
     }
     public void ChangeToGreen()
     { 
         panel.color = Color.green;
+        GameObject key = GameObject.Find(gameObject.GetComponentInChildren<Text>().text);
+        key.GetComponent<Image>().color= Color.green;
+        isGreen = true;
+
+
     }
     public void ChangeToGray()
     {
         panel.color = Color.gray;
+        GameObject key = GameObject.Find(gameObject.GetComponentInChildren<Text>().text);
+        key.GetComponent<Image>().color= Color.gray;
     }
 
 

@@ -34,6 +34,8 @@ public class Colormanager : MonoBehaviour
     [SerializeField] public GameObject word5Box3;
     [SerializeField] public GameObject word5Box4;
     [SerializeField] public GameObject word5Box5;
+    
+    [SerializeField] public GameObject keyboardA;
     private ChangeBoxColor _changeBoxColor;
 
     private void Start()
@@ -54,6 +56,8 @@ public class Colormanager : MonoBehaviour
             _changeBoxColor = word1Box4.GetComponent<ChangeBoxColor>();
             _changeBoxColor.CheckWord();
             _changeBoxColor = word1Box5.GetComponent<ChangeBoxColor>();
+            _changeBoxColor.CheckWord();
+            _changeBoxColor = keyboardA.GetComponent<ChangeBoxColor>();
             _changeBoxColor.CheckWord();
         }
         if (i == 1)
